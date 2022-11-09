@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: lightpink;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            
+        }
+        nav {
+            background-color: lightblue;
+            padding: 3px;
+            box-shadow: 2px 2px 2px 3px blue;
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 35px;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 0px;
+        }
+        article {
+            background-color: lightgrey;
+            padding: 5px;
+        }
+        article > aside {
+            background-color: rgb(189, 188, 188);
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 2px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Studio Georgia Lopes</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p>Os melhores procedimentos para você.</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Procedimentos de estética facial</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi soluta laudantium hic saepe! Molestiae culpa assumenda accusantium. Illo velit, culpa, ipsam, vel natus eaque exercitationem ratione inventore veniam quae nostrum!</p>
+                <aside>Atualizado por Rinla Bacelar</aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por José Alexandre de Melo Silva</p>
+    </footer>
+</body>
+</html>
